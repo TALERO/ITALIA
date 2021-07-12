@@ -1,0 +1,172 @@
+aside, article, footer{
+    margin-top:5%;
+    margin-left:1%;
+    padding:1%;
+    font-size:18px;
+    
+}
+
+header{
+    width:30%;
+    height:auto;
+    border-radius: 16px;
+    border:6px solid #DAF7A6;
+    margin-left:33%;
+    background-color: #1F2381;
+    color:#F7061C;
+    font-size:30px;
+    text-align:center;
+    font-weight:bold;
+}
+
+aside {
+    float:left;
+    width:20%;
+   
+}
+
+img{
+    width:100%;
+}
+
+article{
+    float:left;
+    width:48%;
+}
+
+footer{
+    clear:both;
+    display:table;
+    margin-top:15%;
+}
+
+.uno{
+    background-color: green;
+    color:white;
+}
+
+
+.dos{
+    color:blue;
+}
+
+.tres{
+    background-color: red;
+    color:white;
+}
+
+
+/* Extra Small (xs) */
+
+@media (max-width:575px){
+
+    header{
+        width:100%;
+        text-align:center;
+        margin-left:0;
+    }
+
+      footer{
+        border-radius: 16px;
+        border:6px solid #DAF7A6;
+        text-align:justify;
+        padding:1%;
+    }
+
+    article{
+        width:95%;
+        border-radius: 16px;
+        border:6px solid #DAF7A6;
+        text-align:justify;
+        padding:1%;
+    }
+    aside{
+        width:100%;
+        text-align:justify;
+        
+    }
+
+    footer{
+        width:100%;
+        text-align:center;
+        color:green;
+    }
+
+    .uno, .dos, .tres{
+        border-radius: 16px;
+        padding:2%;
+    }
+}
+
+@media (min-width:576px) and (max-width:767px){
+
+
+    .izq{
+        width:30%;
+        text-align:justify;
+        
+    
+ }
+
+    article {
+        width:55%;
+        border-radius: 16px;
+        border:6px solid #DAF7A6;
+        text-align:justify;
+        padding:1%;
+    }
+ 
+   .der{
+       width:auto;
+    
+   }
+   
+
+    img{
+        width:98%;
+    }
+
+    .uno, .dos, .tres{
+        border-radius: 16px;
+        padding:2%;
+    }
+    footer{
+        width:30%;
+        margin-left:33%;
+        border-radius: 16px;
+        border:6px solid #DAF7A6;
+        text-align:center;
+        color:green;
+        padding:1%;
+    }
+
+}
+
+@media (min-width:768px){
+
+    aside{
+        width:18%;
+    }
+
+
+    article{
+        width:45%;
+        border-radius: 16px;
+        border:6px solid #DAF7A6;
+        text-align:justify;
+        padding:1%;
+    }
+
+   
+    footer{
+        width:30%;
+        margin-left:33%;
+        text-align:center;
+        color:green;
+        padding:1%;
+    }
+
+    .uno, .dos, .tres{
+        padding:4%;
+    }
+}
